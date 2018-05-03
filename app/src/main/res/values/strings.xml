@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">ABND_proj_1</string>
+    <string name="name" translatable="false">John Robitaille</string>
+    <string name="title">Technologist</string>
+    <string name="phone" translatable="false">864.555.1212</string>
+    <string name="email" translatable="false">info@atlasmotorworks.com</string>
+    <string name="www" translatable="false">www.atlasmotorworks.com</string>
+    <string name="address">123 Any Street\nAnyTown, USA 12345</string>
+    <string name="company" translatable="false">Atlas Motor Works LLC</string>
+</resources>

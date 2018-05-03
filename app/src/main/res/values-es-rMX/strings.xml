@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ABND_proj_1</string>
+    <string name="address">123 Any Street /nAnyTown, Estados Unidos 12345</string>
+    <string name="title">"Título Profesional "</string>
+</resources>

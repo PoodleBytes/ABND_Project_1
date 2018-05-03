@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/appMargin"
+    android:background="@drawable/bkgnd_port"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/appMargin"
+        android:layout_weight="1"
+        android:contentDescription="@string/company"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/appMargin"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/appPadding"
+            android:shadowColor="@color/colorAccent"
+            android:text="@string/name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/appPadding"
+            android:text="@string/title"
+            android:textColor="@color/colorAccent"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/appMargin"
+        android:layout_marginStart="@dimen/appMargin"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_call_24dp"
+            android:drawableStart="@drawable/ic_call_24dp"
+            android:gravity="center_horizontal"
+            android:onClick="callPhone"
+            android:padding="@dimen/appPadding"
+            android:text="@string/phone"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            app:fontFamily="sans-serif" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_email_24dp"
+            android:drawableStart="@drawable/ic_email_24dp"
+            android:gravity="center_horizontal"
+            android:onClick="sendEmail"
+            android:padding="@dimen/appPadding"
+            android:text="@string/email"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            app:fontFamily="sans-serif" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_web_24dp"
+            android:drawableStart="@drawable/ic_web_24dp"
+            android:gravity="center_horizontal"
+            android:onClick="visitWebsite"
+            android:padding="@dimen/appPadding"
+            android:text="@string/www"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            app:fontFamily="sans-serif" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_location_24dp"
+            android:drawableStart="@drawable/ic_location_24dp"
+            android:gravity="center_horizontal"
+            android:onClick="mapLocation"
+            android:padding="@dimen/appPadding"
+            android:text="@string/address"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            app:fontFamily="sans-serif" />
+
+
+    </LinearLayout>
+</LinearLayout>
