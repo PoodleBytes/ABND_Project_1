@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name" translatable="false">ABND_proj_1</string>
-    <string name="name" translatable="false">John Robitaille</string>
+    <string name="name" translatable="false">Poodle Bytes</string>
     <string name="title">Technologist</string>
     <string name="phone" translatable="false">864.555.1212</string>
     <string name="email" translatable="false">info@atlasmotorworks.com</string>
